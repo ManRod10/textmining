@@ -1,5 +1,5 @@
 
-ShinyServer( 
+shinyServer( 
 function(input, output) {
   
   
