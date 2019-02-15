@@ -1,4 +1,5 @@
-dashboardPage(
+ShinyUI (
+  dashboardPage(
   dashboardHeader(title = "Text Minining & Noticias"),
   dashboardSidebar(
     sidebarMenu(
@@ -23,3 +24,4 @@ dashboardPage(
               )
       )))
     )
+)
