@@ -1,6 +1,5 @@
 
-shinyServer( 
-function(input, output) {
+shinyServer( function(input, output) {
   
   
   portales <- c(espectador = "https://www.elespectador.com/noticias",
