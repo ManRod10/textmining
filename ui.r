@@ -1,4 +1,4 @@
-ShinyUI (
+ShinyUI(
   dashboardPage(
   dashboardHeader(title = "Text Minining & Noticias"),
   dashboardSidebar(
