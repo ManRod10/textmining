@@ -1,7 +1,7 @@
 shinyUI(
-  dashboardPage(
-  dashboardHeader(title = "Text Minining & Noticias"),
-  dashboardSidebar(
+  dashboardPage(skin = "black",
+  dashboardHeader(title = "TM & News"),
+  dashboardSidebar( 
     sidebarMenu(
       menuItem("Descripcion", tabName = "des", icon = icon("dashboard")),
       menuItem("Visualizacion", tabName = "viz", icon = icon("th"))
