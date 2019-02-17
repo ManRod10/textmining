@@ -1,11 +1,5 @@
----
-title: "Text Mining"
-output: github_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+# News & Text Mining
 
 ## Descripcion
 
