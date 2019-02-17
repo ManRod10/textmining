@@ -12,7 +12,9 @@ shinyUI(
       tabItem(tabName = "des",
               
               h4("Esta aplicacion tiene por objetivo monitorear, las noticias economicas de los
-                 principales medios del pais")),
+                 principales medios del pais"),
+               withMathJax(includeMarkdown("README.md"))
+             ),
       
       tabItem(tabName = "viz",
               mainPanel(
